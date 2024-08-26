@@ -1,46 +1,24 @@
-# algorithm-visualizer 
-### <a href="https://bappy4u.github.io/algorithm-visualizer/">Live Link <img src="https://user-images.githubusercontent.com/26277680/161445394-01bc2179-9fb4-4e57-9cd1-76c47e244ff6.png" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="15" height="auto" /></a> 
+# Sorting Algorithm Visualizer
 
-### Completed Algorithm
-* Sorting
-  * Bubble Sort
-  * Insertion Sort
-* Searching
-  * Linear Search
-  * Binary Search
+**SortScope** is an interactive sorting algorithm visualizer designed to help users understand various sorting algorithms through dynamic visual representations. Built using HTML, JavaScript, and D3.js, this tool provides an engaging way to see how sorting algorithms like Bubble Sort, Selection Sort, and Merge Sort work under the hood.
 
+## Features
 
-![image](https://user-images.githubusercontent.com/26277680/163478028-586e4e2e-b949-47c6-a6ad-9c418144af6b.png)
-![image](https://user-images.githubusercontent.com/26277680/163477034-e55f6751-343f-4e84-bafe-881f03ccd2d7.png)
+- **Multiple Sorting Algorithms**: Visualize different sorting algorithms, including Bubble Sort, Selection Sort, and Merge Sort.
+- **Interactive Controls**: Adjust sorting speed, generate new data sets, and toggle sorting animations on the fly.
+- **Audio Feedback**: Enjoy sound effects that match the sorting actions, enhancing the visualization experience.
+- **Responsive Design**: Accessible on various devices, ensuring a smooth user experience across all platforms.
 
+## How It Works
 
+The visualizer uses bars to represent data elements. As the sorting algorithm progresses, you can observe the bars being swapped, highlighting the inner workings of the algorithm. The color-coding further distinguishes the elements being compared, sorted, or left unsorted.
 
-## Setup
+## Technologies Used
 
-The first thing to do is to clone the repository:
+- **D3.js**: For creating dynamic and interactive data visualizations.
+- **JavaScript**: Core logic for implementing the sorting algorithms.
+- **HTML & CSS**: Structuring and styling the interface for an intuitive user experience.
 
-```sh
-$ git clone https://github.com/Bappy4u/algorithm-visualizer.git
-```
-Then open `index.html` in the browser. That's it
+## Installation
 
-### What I've used in this project
-
-* JavaScript
-* Async & Await function of javaScript
-* D3.js for data visualization
-* Algorithms
-* Html & CSS
-
-
-### Incomplete feature:
-
-* More Sorting algorithms visualizations
-* Linked list visualization
-* Tree visualization
-* And More...
-
-### 
-
-
-
+Clone the repository and open `index.html` in your browser to start using the visualizer.
